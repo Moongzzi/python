@@ -1,5 +1,5 @@
-# from foods.drinks import milk,cola,water
-from foods.drinks import *
+from foods.drinks import milk,cola,water
+# from foods.drinks import *
 
 milk.drink()
 cola.drink()
