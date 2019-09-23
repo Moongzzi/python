@@ -10,5 +10,3 @@ if n % 2 != 0:
     raise  OddError
 else:
     print("짝수에요, 짝짝짝")
-except OddError as e:
-    print(e)
