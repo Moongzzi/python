@@ -36,7 +36,7 @@ class TicTacToe:
             return "d"  #비김
 
     def __str__(self):
-        s = ""
+        s = "."
         for i, v in enumerate(self.board):
             s += v
             if i % 3 == 2:
