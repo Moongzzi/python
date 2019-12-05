@@ -7,4 +7,6 @@ if __name__ == '__main__':
     with requests.post(url, data) as response:
         soup = BeautifulSoup(response.text, "lxml")
     print(soup)
-    titles = soup.select("a > dit.tit > a")
+    titles = soup.select("dt.tit > a")
+    for title in titles:
+        print(title.text)
